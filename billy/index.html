@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="card">
+    <input type="text" data-name="searchData" id="searchURL"><button type="button" >Search</button>
+    <a id="capture" download="file1.png"  class="btn btn-primary">Click Here to Capture</a>
+    <script src="app.js"></script>
+    
+    <video id="player" class="card-img-top" controls autoplay width=25% height=25% ></video>
+</div>
+<canvas id="canvas"  width=200px height=275px ></canvas>
+<script>
+    
+  const player = document.getElementById('player');
+  const canvas = document.getElementById('canvas');
+  const context = canvas.getContext('2d');
+  const captureButton = document.getElementById('capture');
+  const constraints = {
+    video: true,
+  };
+  captureButton.addEventListener('click', () => {
+    // Draw the video frame to the canvas.
+    context.drawImage(player, 0, 0, canvas.width, canvas.height);
+    const img =  canvas.toDataURL("image/png");
+    const data = img.replace(/^data:image\/\w+;base64,/, "");
+    
+    const FData = new FormData();
+    FData.append("file1", data, "file1.png");  
+    const lib = "https://billyatge.github.io/img";
+      
+      document.querySelector("#capture").href = img;
+      ////
+      //
+      $.ajax({
+      type: 'PUT',
+      url: lib,
+      data: FData,
+      contentType: 'image/png',
+       processData: false}).then({
+            success: function(data){
+                console.log("success");
+                console.log(data);
+            },
+            error: function(data){
+                console.log("error");
+                console.log(data);
+            }
+      });
+      
+      //
+      ////
+  });
+  // Attach the video stream to the video element and autoplay.
+  navigator.mediaDevices.getUserMedia(constraints)
+    .then((stream) => {
+      player.srcObject = stream;
+    });
+</script>
+    
+ 
+        <div id="here"></div>
+        
+</body>
+</html>
