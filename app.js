@@ -12,9 +12,9 @@ $("button").on("click", function(){
          url:googleImageURL,
          method: 'GET'
      }).then(function (response){
-         const searchDiv = $("#here");
-         
-       searchDiv.append(response);
+         //const searchDiv = $("#here");
+         document.getElementById("here").innerHTML = response;
+       //searchDiv.append(response);
         // searchDiv.html(response);
          //$("#logo").hide();
          //$('img', this).attr('alt', 'google').hide();
