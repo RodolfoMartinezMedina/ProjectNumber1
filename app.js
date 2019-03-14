@@ -15,8 +15,8 @@ $("button").on("click", function(){
          const searchDiv = $("#here").addClass("card-body");
          
         searchDiv.append(response);
-         $("#mlogo").hide();
-         $('img', this).attr('alt', 'google').hide();
+         $("#logo").hide();
+         //$('img', this).attr('alt', 'google').hide();
          console.log(response);
      });
 });
