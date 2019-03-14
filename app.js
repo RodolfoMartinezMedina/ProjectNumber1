@@ -12,10 +12,10 @@ $("button").on("click", function(){
          url:googleImageURL,
          method: 'GET'
      }).then(function (response){
-         const searchDiv = $("#here").addClass("card-body");
+         const searchDiv = $("#here");
          
-       // searchDiv.append(response);
-         searchDiv.html(response);
+       searchDiv.append(response);
+        // searchDiv.html(response);
          //$("#logo").hide();
          //$('img', this).attr('alt', 'google').hide();
          console.log(response);
