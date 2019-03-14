@@ -1,6 +1,6 @@
 const searchVAR = "";
-//const gooURL = "https://cors.io/?https://imgops.com/upload"
-const gooURL = "https://cors.io/?https://www.google.com/searchbyimage?image_url="
+const gooURL = "https://cors.io/?https://imgops.com/"
+//const gooURL = "https://cors.io/?https://www.google.com/searchbyimage?image_url="
 
 $("button").on("click", function(){
     
