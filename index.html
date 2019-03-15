@@ -5,8 +5,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> 
     <title>Reverse Search</title>
+    
+    <script type='text/javascript'
+    src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AkA556_Ytlne-Pw8GFRa2qmJkxHAJnqyvKQ4qVIQHZ0Osfcg0v14DziW8HLQoG-V'
+    async defer></script>
+    
 </head>
-<body>
+<body onload= "getLocation()">
+    <script type="text/javascript" src="coordinates.js" >  </script>
+    
     <div class="card">
       <input type="text" data-name="searchData" id="searchURL"><button type="button" >Search</button>
         <!-- Run app.js to run search -->
@@ -16,6 +23,7 @@
       <video id="player" class="card-img-top" controls autoplay width=25% height=25% ></video>
     </div>
     <canvas id="canvas"  width=200px height=275px ></canvas>
+    <div id="myMap" style="position:relative;width:800px;height:600px;"></div>
     <div id="here"></div>
     
     <!-- Call takepic.js to capture photo -->
