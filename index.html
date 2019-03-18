@@ -11,7 +11,8 @@
     <script type='text/javascript'
     src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AkA556_Ytlne-Pw8GFRa2qmJkxHAJnqyvKQ4qVIQHZ0Osfcg0v14DziW8HLQoG-V'
     async defer></script>
-    
+    <link rel="javascript" href="main.js">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body onload= "getLocation()">
     
@@ -25,6 +26,9 @@
       <video id="player" class="card-img-top" controls autoplay width=25% height=25% ></video>
     </div>
     <canvas id="canvas"  width=200px height=275px ></canvas>
+    <form id="imgur">
+    <input type="file" class="imgur" accept="image/*" data-max-size="5000"/>
+    </form>
     <div id="myMap" style="position:relative;width:800px;height:600px;"></div>
     <div id="here"></div>
     
