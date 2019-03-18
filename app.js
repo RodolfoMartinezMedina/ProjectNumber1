@@ -14,7 +14,7 @@ $("button").on("click", function(){
          method: 'GET'
      }).then(function (response){
          $(".dropzone").hide();
-         $(".bg- success").hide();
+         $(".status").hide();
          const searchDiv = $("#here");
          
          searchDiv.append(response);
