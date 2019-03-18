@@ -18,6 +18,7 @@ $("button").on("click", function(){
          searchDiv.append(response);
         
          $("#logo").hide();
+         $("#mdlogo").hide();
          $('img', this).attr('alt', 'google').hide();
          console.log(response);
      });
