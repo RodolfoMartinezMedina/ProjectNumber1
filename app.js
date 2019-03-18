@@ -17,8 +17,8 @@ $("button").on("click", function(){
          
          searchDiv.append(response);
         
-         //$("#logo").hide();
-         //$('img', this).attr('alt', 'google').hide();
+         $("#logo").hide();
+         $('img', this).attr('alt', 'google').hide();
          console.log(response);
      });
 });
