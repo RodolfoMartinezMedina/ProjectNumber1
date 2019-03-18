@@ -13,6 +13,8 @@ $("button").on("click", function(){
          url:googleImageURL,
          method: 'GET'
      }).then(function (response){
+         $(".dropzone").hide();
+         $(".bg- success").hide();
          const searchDiv = $("#here");
          
          searchDiv.append(response);
