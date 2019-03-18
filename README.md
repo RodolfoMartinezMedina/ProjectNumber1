@@ -27,11 +27,13 @@ Items not completed:
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Items completed: 
+
                   camera -- done
                   Search -- Using proxy to pass search to google
                   Save to file -- capture png is saved as file1.png
                  
-Items not completed: 
+Items not completed:
+
                   Save png -- Saving png file to cloud drive so the URL can be pass to the search 
                   GPS -- code found need to be added to POC
                   Map -- open item
