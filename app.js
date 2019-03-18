@@ -4,8 +4,8 @@ const gooURL = "https://cors.io/?https://www.google.com/searchbyimage?image_url=
 
 $("button").on("click", function(){
     
-
-    const searchData = $("input:text").val();
+    //  const searchData = $("input:text").val();
+    const searchData = $("input:value").val();
     const googleImageURL = gooURL+searchData;
     console.log(googleImageURL);
      $.ajax({
