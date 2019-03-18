@@ -20,7 +20,7 @@
 <body onload= "getLocation()">
     
     
-    <div class="card"   style="width: 18rem;">
+    <div class="card dropzone"   style="width: 18rem;">
       <input type="text" data-name="searchData" id="searchURL"><button type="button" >Search</button>
         <!-- Run app.js to run search -->
     <script src="app.js"></script>
@@ -29,7 +29,7 @@
       <video id="player" class="card-img-top" controls autoplay width=25% height=25% ></video>
     </div>
      <!-- Capture image upload start -->
-    <div class="card"   style="width: 18rem;">
+    <div class="card dropzone"   style="width: 18rem;">
     <canvas id="canvas"  width=200px height=275px ></canvas>
     </div>
     <!-- image upload start -->
@@ -38,13 +38,15 @@
     </div>
     <!-- image upload end -->
     <!-- Map drop start-->
-    <div class="card"   style="width: 18rem;">
+    <div class="card dropzone"   style="width: 18rem;">
        <!-- <div id="myMap" style="position:relative;width:800px;height:600px;"></div> --> 
     <div id="myMap"></div>
     </div>
     <!-- Map drop end-->
     <!-- Search drop start -->
+    <div class="dropzone">
     <div id="here"></div>
+    </div>    
     <!-- Search drop end -->
     <!-- Call takepic.js to capture photo -->
     <script src="takepic.js"></script>
