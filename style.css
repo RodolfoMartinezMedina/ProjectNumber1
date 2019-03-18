@@ -326,3 +326,6 @@ body.loading .loading-modal {
 
 .btn{ width:324px; height:32px; line-height:18px;  }
 
+@media screen and (max-width: 1920px) {}
+@media screen and (max-width: 980px) {}
+@media screen and (max-width: 768px) {}
