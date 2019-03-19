@@ -344,3 +344,9 @@ body.loading .loading-modal {
     max-width: 100%;    
     }
 }
+@media screen and (max-width: 300px) {
+    .col-lg-1 {
+    flex: 100%;
+    max-width: 100%;    
+    }
+}
