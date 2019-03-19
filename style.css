@@ -349,4 +349,9 @@ body.loading .loading-modal {
     flex: 100%;
     max-width: 100%;    
     }
+    .card.hovercard .avatar {
+    position: relative;
+    top: -70px;
+    margin-bottom: -200px;
+}
 }
