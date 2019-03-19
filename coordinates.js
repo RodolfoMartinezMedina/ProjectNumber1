@@ -15,7 +15,7 @@ function getLocation() {
     const lat = position.coords.latitude;
     const lng = position.coords.longitude;
     GetMap(lat, lng);
-    console.log(lat,lng);
+    
   };
 
   console.log(GetMap)
@@ -25,6 +25,7 @@ function getLocation() {
       center: new Microsoft.Maps.Location(lat, lng),
       mapTypeId: Microsoft.Maps.MapTypeId.aerial,
       zoom: 30,
+      console.log(lat,lng)
     });
   }
 }
