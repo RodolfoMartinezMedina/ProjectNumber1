@@ -328,30 +328,45 @@ body.loading .loading-modal {
 
 @media screen and (max-width: 1920px) {
     .col-lg-1 {
-    flex: 80%;
-    max-width: 80%;    
+    flex: 100%;
+    max-width: 100%;    
     }
+       .card.hovercard .avatar {
+    position: relative;
+    top: -200px;
+    margin-bottom: -200px;
+}
 }
 @media screen and (max-width: 980px) {
     .col-lg-1 {
-    flex: 80%;
-    max-width: 80%;    
+    flex: 100%;
+    max-width: 100%;    
     }
+       .card.hovercard .avatar {
+    position: relative;
+    top: -200px;
+    margin-bottom: -200px;
+}
 }
 @media screen and (max-width: 768px) {
     .col-lg-1 {
-    flex: 80%;
-    max-width: 80%;    
+    flex: 100%;
+    max-width: 100%;    
     }
+       .card.hovercard .avatar {
+    position: relative;
+    top: -200px;
+    margin-bottom: -200px;
+}
 }
 @media screen and (max-width: 300px) {
     .col-lg-1 {
-    flex: 80%;
-    max-width: 80%;    
+    flex: 100%;
+    max-width: 100%;    
     }
     .card.hovercard .avatar {
     position: relative;
-    top: -70px;
+    top: -200px;
     margin-bottom: -200px;
 }
 }
