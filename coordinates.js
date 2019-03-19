@@ -24,8 +24,8 @@ function getLocation() {
     var map = new Microsoft.Maps.Map('#myMap', {
       center: new Microsoft.Maps.Location(lat, lng),
       mapTypeId: Microsoft.Maps.MapTypeId.aerial,
-      zoom: 30,
-      console.log(lat,lng)
+      zoom: 30
     });
+    console.log(lat,lng);
   }
 }
