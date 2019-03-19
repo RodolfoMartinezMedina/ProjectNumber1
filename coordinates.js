@@ -15,6 +15,7 @@ function getLocation() {
     const lat = position.coords.latitude;
     const lng = position.coords.longitude;
     GetMap(lat, lng);
+    console.log(lat,lng);
   };
 
   console.log(GetMap)
