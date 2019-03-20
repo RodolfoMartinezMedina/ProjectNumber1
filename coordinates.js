@@ -37,4 +37,4 @@ function getLocation() {
     $("#myMap").hide();
     $("#searchB").hide();
     $("#capture").show();
-    $("#player").hide();
+    $("#player").show();
