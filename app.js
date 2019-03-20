@@ -30,15 +30,15 @@ $("#capture").click(function () {
     $(".dropzone").show();
     $("#here").hide(); 
     $("#myMap").hide();
-    $("#searchbtn").show();
+    $("#searchB").show();
     $("#capture").hide();
     $("#player").hide();
 })
-$("#capture").click(function () {
-    $(".dropzone").show();
-    $("#here").hide(); 
+$("#searchB").click(function () {
+    $(".dropzone").hide();
+    $("#here").show(); 
     $("#myMap").hide();
-    $("#searchbtn").show();
+    $("#searchB").hide();
     $("#capture").hide();
     $("#player").hide();
 })
