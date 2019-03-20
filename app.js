@@ -41,6 +41,7 @@ $("#searchB").click(function () {
     $("#searchB").show();
     $("#capture").hide();
     $("#player").hide();
+    $("#canvas").hide();
 })
 
 
