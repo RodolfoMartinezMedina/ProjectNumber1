@@ -26,10 +26,13 @@ $("button").on("click", function(){
      });
 });
 ///////////////////////////
-    $(".dropzone").hide();
+$("#capture").click(function () {
+    $(".dropzone").show();
     $("#here").hide(); 
     $("#myMap").hide();
-    $("#searchbtn").hide();
-    $("#capture").show();
+    $("#searchbtn").show();
+    $("#capture").hide();
+})
+
 
 ///////////////////////////
