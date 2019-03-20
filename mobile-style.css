@@ -7,7 +7,7 @@
 }
 
 .info {
-    margin-top: 30%;
+    margin-top: auto;
 }
 
 .status {
@@ -21,7 +21,7 @@
 .loading-table {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 }
