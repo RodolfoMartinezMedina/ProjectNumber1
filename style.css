@@ -292,9 +292,16 @@ body.loading .loading-modal {
 }
 
 .card.hovercard .avatar {
+    //position: relative;
+    //top: -70px;
+    //margin-bottom: -50px;
+    //////////////////////
+    border: 4px dashed #ccc;
+    height: 200px;
     position: relative;
-    top: -70px;
-    margin-bottom: -50px;
+    margin: auto;
+    max-width: 50%;  
+    
 }
 
 .card.hovercard .avatar img {
