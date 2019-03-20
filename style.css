@@ -282,7 +282,7 @@ body.loading .loading-modal {
 }
 
 .card.hovercard .cardheader {
-    background: url("http://lorempixel.com/850/280/nature/4/");
+    // background: url("http://lorempixel.com/850/280/nature/4/");
     background-size: cover;
     height: 235px;
 }
