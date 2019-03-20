@@ -1,4 +1,13 @@
 @charset "UTF-8";
+////////////////////////////
+/* Displaying  */
+#player{
+    border: 4px dashed #ccc;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    max-width: 50%;   
+}
 
 /* Imgur Upload Style */
 
@@ -369,13 +378,4 @@ body.loading .loading-modal {
     top: -200px;
     margin-bottom: -200px;
 }
-}
-////////////////////////////
-/* Displaying  */
-#player{
-    border: 4px dashed #ccc;
-    height: 200px;
-    position: relative;
-    margin: auto;
-    max-width: 50%;   
 }
