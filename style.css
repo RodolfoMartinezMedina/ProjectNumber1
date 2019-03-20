@@ -345,7 +345,7 @@ body.loading .loading-modal {
 @media screen and (max-width: 1920px) {
     .col-lg-1 {
     flex: 100%;
-    max-width: 100%;    
+    max-width: 70%;    
     }
        .card.hovercard .avatar {
     position: relative;
@@ -356,7 +356,7 @@ body.loading .loading-modal {
 @media screen and (max-width: 980px) {
     .col-lg-1 {
     flex: 100%;
-    max-width: 100%;    
+    max-width: 70%;    
     }
        .card.hovercard .avatar {
     position: relative;
@@ -367,7 +367,7 @@ body.loading .loading-modal {
 @media screen and (max-width: 768px) {
     .col-lg-1 {
     flex: 100%;
-    max-width: 100%;    
+    max-width: 70%;    
     }
        .card.hovercard .avatar {
     position: relative;
@@ -378,7 +378,7 @@ body.loading .loading-modal {
 @media screen and (max-width: 300px) {
     .col-lg-1 {
     flex: 100%;
-    max-width: 100%;    
+    max-width: 70%;    
     }
     .card.hovercard .avatar {
     position: relative;
