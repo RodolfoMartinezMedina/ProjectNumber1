@@ -1,14 +1,10 @@
 @charset "UTF-8";
 ////////////////////////////
 /* Displaying  */
-#player{
-    border: 4px dashed #ccc;
-    height: 200px;
-    position: relative;
-    margin: auto;
-    max-width: 50%;   
+.button {
+  float: left;
+  padding: 30px;
 }
-
 /* Imgur Upload Style */
 
 body.loading .loading-modal {
