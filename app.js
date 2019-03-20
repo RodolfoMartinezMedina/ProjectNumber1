@@ -25,3 +25,11 @@ $("button").on("click", function(){
          console.log(response);
      });
 });
+
+$("#start").click(function () {
+    $(".dropzone").hide();
+    $("#here").hide(); 
+    $("#myMap").hide();
+    $("#searchbtn").hide();
+    $("#capture").show();
+});
