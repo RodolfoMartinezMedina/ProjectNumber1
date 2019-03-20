@@ -29,3 +29,12 @@ function getLocation() {
     console.log(lat,lng);
   }
 }
+
+
+///////////////////////////
+ $(".dropzone").hide();
+    $("#here").hide(); 
+    $("#myMap").hide();
+    $("#searchB").hide();
+    $("#capture").show();
+    $("#player").hide();
