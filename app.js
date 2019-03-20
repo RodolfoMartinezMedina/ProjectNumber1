@@ -32,6 +32,15 @@ $("#capture").click(function () {
     $("#myMap").hide();
     $("#searchbtn").show();
     $("#capture").hide();
+    $("#player").hide();
+})
+$("#capture").click(function () {
+    $(".dropzone").show();
+    $("#here").hide(); 
+    $("#myMap").hide();
+    $("#searchbtn").show();
+    $("#capture").hide();
+    $("#player").hide();
 })
 
 
