@@ -370,3 +370,12 @@ body.loading .loading-modal {
     margin-bottom: -200px;
 }
 }
+////////////////////////////
+/* Displaying  */
+#player{
+    border: 4px dashed #ccc;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    max-width: 50%;   
+}
