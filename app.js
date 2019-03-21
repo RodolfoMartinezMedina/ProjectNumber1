@@ -23,6 +23,8 @@ $("button").on("click", function(){
          $("#mdlogo").hide();
          $('img', this).attr('alt', 'google').hide();
          $(".doodle").hide();
+         $("#cnt").hide();
+         $("#center_col").hide();
          console.log(response);
      });
 });
