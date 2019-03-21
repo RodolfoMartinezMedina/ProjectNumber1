@@ -50,11 +50,7 @@ $("#searchB").click(function () {
     $("#mapB").fadeIn(4200);
     $("#resultsB").animate({height: 'hide'});
     $(".cardheader").animate({height: 'hide'});
-    for (var value=0; value > 1000; value++){
-
-            $("div#progressbar").attr("aria-valuenow", value);
-        console.log(value);
-    };
+    
 });
 $("#mapB").click(function () {
     $(".dropzone").animate({height: 'hide'});
