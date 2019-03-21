@@ -50,13 +50,10 @@ $("#searchB").click(function () {
     $("#mapB").fadeIn(4200);
     $("#resultsB").animate({height: 'hide'});
     $(".cardheader").animate({height: 'hide'});
-    var value = 0;
-var timer = setInterval (function ()
-{
-  $("div#progressbar").progressbar ("value", value);
-  value++;
-  if (value > 100) clearInterval (timer);
-}, 10);
+    for (var value=0; value > 1000; value++){
+
+            $("div#progressbar").attr("aria-valuenow", value);
+    };
 });
 $("#mapB").click(function () {
     $(".dropzone").animate({height: 'hide'});
@@ -69,7 +66,7 @@ $("#mapB").click(function () {
     $("#resultsB").fadeIn(3000);
     $("#mapB").fadeIn(3000);
     $(".cardheader").animate({height: 'hide'});
-})
+});
 $("#resultsB").click(function () {
     $(".dropzone").animate({height: 'hide'});
     $("#here").fadeIn(3000);
