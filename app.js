@@ -50,6 +50,13 @@ $("#searchB").click(function () {
     $("#mapB").fadeIn(4200);
     $("#resultsB").animate({height: 'hide'});
     $(".cardheader").animate({height: 'hide'});
+    var value = 0;
+var timer = setInterval (function ()
+{
+  $("div#progressbar").progressbar ("value", value);
+  value++;
+  if (value > 100) clearInterval (timer);
+}, 10);
 });
 $("#mapB").click(function () {
     $(".dropzone").animate({height: 'hide'});
