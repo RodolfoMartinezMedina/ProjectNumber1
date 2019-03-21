@@ -39,16 +39,16 @@ $("#capture").click(function () {
     $("#resultsB").hide();
 });
 $("#searchB").click(function () {
-    $(".dropzone").hide();
+    $(".dropzone").animate({height: 'hide'});
     $("#here").show(); 
-    $("#myMap").animate({height: 'toggle'});
+    $("#myMap").animate({height: 'hide'});
     $("#searchB").show();
-    $("#capture").animate({height: 'toggle'});
-    $("#player").animate({height: 'toggle'});
-    $("#canvas").animate({height: 'toggle'});
+    $("#capture").animate({height: 'hide'});
+    $("#player").animate({height: 'hide'});
+    $("#canvas").animate({height: 'hide'});
     $("#mapB").show();
-    $("#resultsB").animate({height: 'toggle'});
-    $(".cardheader").animate({height: 'toggle'});
+    $("#resultsB").animate({height: 'hide'});
+    $(".cardheader").animate({height: 'hide'});
 });
 $("#mapB").click(function () {
     $(".dropzone").hide();
