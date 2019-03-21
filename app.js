@@ -53,6 +53,7 @@ $("#searchB").click(function () {
     for (var value=0; value > 1000; value++){
 
             $("div#progressbar").attr("aria-valuenow", value);
+        console.log(value);
     };
 });
 $("#mapB").click(function () {
