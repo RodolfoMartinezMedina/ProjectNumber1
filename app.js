@@ -29,10 +29,10 @@ $("button").on("click", function(){
 });
 ///////////////////////////
 $("#capture").click(function () {
-    $(".dropzone").show();
+    $(".dropzone").animate({width: 'show'});
     $("#here").animate({height: 'hide'});
     $("#myMap").animate({height: 'hide'});
-    $("#searchB").show();
+    $("#searchB").animate({width: 'show'});
     $("#capture").animate({height: 'hide'});
     $("#player").animate({height: 'hide'});
     $("#mapB").animate({height: 'hide'});
@@ -40,38 +40,38 @@ $("#capture").click(function () {
 });
 $("#searchB").click(function () {
     $(".dropzone").animate({height: 'hide'});
-    $("#here").show(); 
+    $("#here").animate({width: 'show'});
     $("#myMap").animate({height: 'hide'});
-    $("#searchB").show();
+    $("#searchB").animate({width: 'show'});
     $("#capture").animate({height: 'hide'});
     $("#player").animate({height: 'hide'});
     $("#canvas").animate({height: 'hide'});
-    $("#mapB").show();
+    $("#mapB").animate({width: 'show'});
     $("#resultsB").animate({height: 'hide'});
     $(".cardheader").animate({height: 'hide'});
 });
 $("#mapB").click(function () {
     $(".dropzone").animate({height: 'hide'});
     $("#here").animate({height: 'hide'});
-    $("#myMap").show();
+    $("#myMap").animate({width: 'show'});
     $("#searchB").animate({height: 'hide'});
     $("#capture").animate({height: 'hide'});
     $("#player").animate({height: 'hide'});
     $("#canvas").animate({height: 'hide'});
-    $("#resultsB").show();
-    $("#mapB").show();
+    $("#resultsB").animate({width: 'show'});
+    $("#mapB").animate({width: 'show'});
     $(".cardheader").animate({height: 'hide'});
 })
 $("#resultsB").click(function () {
     $(".dropzone").animate({height: 'hide'});
-    $("#here").show(); 
+    $("#here").animate({width: 'show'});
     $("#myMap").animate({height: 'hide'});
     $("#searchB").animate({height: 'hide'});
     $("#capture").animate({height: 'hide'});
     $("#player").animate({height: 'hide'});
     $("#canvas").animate({height: 'hide'});
-    $("#mapB").show();
-    $("#resultsB").show();
+    $("#mapB").animate({width: 'show'});
+    $("#resultsB").animate({width: 'show'});
     $(".cardheader").animate({height: 'hide'});
 });
 
