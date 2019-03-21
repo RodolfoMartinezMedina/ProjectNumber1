@@ -33,12 +33,23 @@ $("#capture").click(function () {
     $("#searchB").show();
     $("#capture").hide();
     $("#player").hide();
-})
+    $("#mapB").hide();
+});
 $("#searchB").click(function () {
     $(".dropzone").hide();
     $("#here").show(); 
     $("#myMap").show();
     $("#searchB").show();
+    $("#capture").hide();
+    $("#player").hide();
+    $("#canvas").hide();
+    $("#mapB").hide();
+});
+$("#mapB").click(function () {
+    $(".dropzone").hide();
+    $("#here").hide(); 
+    $("#myMap").show();
+    $("#searchB").hide();
     $("#capture").hide();
     $("#player").hide();
     $("#canvas").hide();
