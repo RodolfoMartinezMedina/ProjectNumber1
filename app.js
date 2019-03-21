@@ -20,6 +20,7 @@ $("button").on("click", function(){
          searchDiv.append(response);
         
          $("#logo").hide();
+         $(".logo").hide();
          $("#mdlogo").hide();
          $('img', this).attr('alt', 'google').hide();
          $(".doodle").hide();
