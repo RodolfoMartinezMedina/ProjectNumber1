@@ -22,6 +22,7 @@ $("button").on("click", function(){
          $("#logo").hide();
          $("#mdlogo").hide();
          $('img', this).attr('alt', 'google').hide();
+         $(".doodle").hide();
          console.log(response);
      });
 });
