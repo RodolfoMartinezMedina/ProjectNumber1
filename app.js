@@ -23,7 +23,7 @@ $("button").on("click", function(){
          $("#mdlogo").hide();
          $('img', this).attr('alt', 'google').hide();
          $(".doodle").hide();
-
+         $("#center_col").css( { marginLeft : "1px"} );
          console.log(response);
      });
 });
@@ -73,6 +73,7 @@ $("#resultsB").click(function () {
     $("#mapB").fadeIn(3000);
     $("#resultsB").fadeIn(3000);
     $(".cardheader").animate({height: 'hide'});
+    $("#center_col").css( { marginLeft : "1px"} );
 });
 
 
