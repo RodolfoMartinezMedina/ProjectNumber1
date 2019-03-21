@@ -41,14 +41,14 @@ $("#capture").click(function () {
 $("#searchB").click(function () {
     $(".dropzone").hide();
     $("#here").show(); 
-    $("#myMap").hide();
+    $("#myMap").animate({height: 'toggle'});
     $("#searchB").show();
-    $("#capture").hide();
-    $("#player").hide();
-    $("#canvas").hide();
+    $("#capture").animate({height: 'toggle'});
+    $("#player").animate({height: 'toggle'});
+    $("#canvas").animate({height: 'toggle'});
     $("#mapB").show();
-    $("#resultsB").hide();
-    $(".cardheader").hide();
+    $("#resultsB").animate({height: 'toggle'});
+    $(".cardheader").animate({height: 'toggle'});
 });
 $("#mapB").click(function () {
     $(".dropzone").hide();
