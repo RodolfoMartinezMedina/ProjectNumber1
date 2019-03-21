@@ -39,3 +39,4 @@ function getLocation() {
     $("#capture").show();
     $("#player").show();
     $("#mapB").hide();
+    $("#resultsB").hide();
