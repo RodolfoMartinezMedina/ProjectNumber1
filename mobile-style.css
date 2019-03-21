@@ -17,7 +17,10 @@
 .image-url {
     width: 80%;
 }
-
+    #canvas{
+    z-index: -1;
+    }
+    
 .loading-table {
     margin-left: auto;
     margin-right: auto;
