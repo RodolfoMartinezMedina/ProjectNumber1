@@ -34,6 +34,7 @@ $("#capture").click(function () {
     $("#capture").hide();
     $("#player").hide();
     $("#mapB").hide();
+    $("#resultsB").hide();
 });
 $("#searchB").click(function () {
     $(".dropzone").hide();
@@ -43,7 +44,8 @@ $("#searchB").click(function () {
     $("#capture").hide();
     $("#player").hide();
     $("#canvas").hide();
-    $("#mapB").hide();
+    $("#mapB").show();
+    $("#resultsB").hide();
 });
 $("#mapB").click(function () {
     $(".dropzone").hide();
@@ -53,7 +55,21 @@ $("#mapB").click(function () {
     $("#capture").hide();
     $("#player").hide();
     $("#canvas").hide();
+    $("#resultsB").show();
+    $("#mapB").show();
 })
+$("#resultsB").click(function () {
+    $(".dropzone").hide();
+    $("#here").show(); 
+    $("#myMap").hide();
+    $("#searchB").hide();
+    $("#capture").hide();
+    $("#player").hide();
+    $("#canvas").hide();
+    $("#mapB").hide();
+    $("#resultsB").show();
+});
+
 
 
 ///////////////////////////
