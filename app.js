@@ -47,7 +47,7 @@ $("#searchB").click(function () {
     $("#capture").animate({height: 'hide'});
     $("#player").animate({height: 'hide'});
     $("#canvas").animate({height: 'hide'});
-    $("#mapB").fadeIn(3000);
+    $("#mapB").fadeIn(4200);
     $("#resultsB").animate({height: 'hide'});
     $(".cardheader").animate({height: 'hide'});
 });
