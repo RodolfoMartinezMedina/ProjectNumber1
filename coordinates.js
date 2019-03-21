@@ -38,3 +38,4 @@ function getLocation() {
     $("#searchB").hide();
     $("#capture").show();
     $("#player").show();
+    $("#mapB").hide();
