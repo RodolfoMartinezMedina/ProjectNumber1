@@ -46,6 +46,7 @@ $("#searchB").click(function () {
     $("#canvas").hide();
     $("#mapB").show();
     $("#resultsB").hide();
+    $(".cardheader").hide();
 });
 $("#mapB").click(function () {
     $(".dropzone").hide();
@@ -57,6 +58,7 @@ $("#mapB").click(function () {
     $("#canvas").hide();
     $("#resultsB").show();
     $("#mapB").show();
+    $(".cardheader").hide();
 })
 $("#resultsB").click(function () {
     $(".dropzone").hide();
@@ -68,6 +70,7 @@ $("#resultsB").click(function () {
     $("#canvas").hide();
     $("#mapB").show();
     $("#resultsB").show();
+    $(".cardheader").hide();
 });
 
 
