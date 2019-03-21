@@ -29,10 +29,10 @@ $("button").on("click", function(){
 });
 ///////////////////////////
 $("#capture").click(function () {
-    $(".dropzone").animate({width: 'show'});
+    $(".dropzone").fadeIn(3000);
     $("#here").animate({height: 'hide'});
     $("#myMap").animate({height: 'hide'});
-    $("#searchB").animate({width: 'show'});
+    $("#searchB").fadeIn(3000);
     $("#capture").animate({height: 'hide'});
     $("#player").animate({height: 'hide'});
     $("#mapB").animate({height: 'hide'});
@@ -40,38 +40,38 @@ $("#capture").click(function () {
 });
 $("#searchB").click(function () {
     $(".dropzone").animate({height: 'hide'});
-    $("#here").animate({width: 'show'});
+    $("#here").fadeIn(3000);
     $("#myMap").animate({height: 'hide'});
-    $("#searchB").animate({width: 'show'});
+    $("#searchB").fadeIn(3000);
     $("#capture").animate({height: 'hide'});
     $("#player").animate({height: 'hide'});
     $("#canvas").animate({height: 'hide'});
-    $("#mapB").animate({width: 'show'});
+    $("#mapB").fadeIn(3000);
     $("#resultsB").animate({height: 'hide'});
     $(".cardheader").animate({height: 'hide'});
 });
 $("#mapB").click(function () {
     $(".dropzone").animate({height: 'hide'});
     $("#here").animate({height: 'hide'});
-    $("#myMap").animate({width: 'show'});
+    $("#myMap").fadeIn(3000);
     $("#searchB").animate({height: 'hide'});
     $("#capture").animate({height: 'hide'});
     $("#player").animate({height: 'hide'});
     $("#canvas").animate({height: 'hide'});
-    $("#resultsB").animate({width: 'show'});
-    $("#mapB").animate({width: 'show'});
+    $("#resultsB").fadeIn(3000);
+    $("#mapB").fadeIn(3000);
     $(".cardheader").animate({height: 'hide'});
 })
 $("#resultsB").click(function () {
     $(".dropzone").animate({height: 'hide'});
-    $("#here").animate({width: 'show'});
+    $("#here").fadeIn(3000);
     $("#myMap").animate({height: 'hide'});
     $("#searchB").animate({height: 'hide'});
     $("#capture").animate({height: 'hide'});
     $("#player").animate({height: 'hide'});
     $("#canvas").animate({height: 'hide'});
-    $("#mapB").animate({width: 'show'});
-    $("#resultsB").animate({width: 'show'});
+    $("#mapB").fadeIn(3000);
+    $("#resultsB").fadeIn(3000);
     $(".cardheader").animate({height: 'hide'});
 });
 
