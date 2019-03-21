@@ -37,7 +37,7 @@ $("#capture").click(function () {
 $("#searchB").click(function () {
     $(".dropzone").hide();
     $("#here").show(); 
-    $("#myMap").hide();
+    $("#myMap").show();
     $("#searchB").show();
     $("#capture").hide();
     $("#player").hide();
