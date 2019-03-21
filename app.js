@@ -39,7 +39,7 @@ $("#capture").click(function () {
 $("#searchB").click(function () {
     $(".dropzone").hide();
     $("#here").show(); 
-    $("#myMap").show();
+    $("#myMap").hide();
     $("#searchB").show();
     $("#capture").hide();
     $("#player").hide();
@@ -66,7 +66,7 @@ $("#resultsB").click(function () {
     $("#capture").hide();
     $("#player").hide();
     $("#canvas").hide();
-    $("#mapB").hide();
+    $("#mapB").show();
     $("#resultsB").show();
 });
 
